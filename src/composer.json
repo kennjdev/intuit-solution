@@ -1,0 +1,27 @@
+{
+  "name": "intuitsolutions/newhiretest",
+  "description": "NewHire Test",
+  "type": "library",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "IntuitSolutions",
+      "email": "products@intuitsolutions.net"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^6.3",
+    "phpunit/phpunit": "^9.5",
+    "steampixel/simple-php-router": "^0.7.0",
+    "simple-crud/simple-crud": "^7.5"
+  },
+  "autoload": {
+	"files": ["src/BigCommerce/helpers.php"],
+    "psr-4": {
+      "IntuitSolutions\\": "src"
+    }
+  },
+  "scripts": {
+	  "test": "./vendor/bin/phpunit --coverage-text --coverage-html coverage --whitelist src tests"
+  }
+}

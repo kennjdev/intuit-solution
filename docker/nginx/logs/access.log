@@ -1,0 +1,4 @@
+172.21.0.1 - - [02/Jun/2022:08:58:34 +0000] "GET //get-wistlist-products HTTP/1.1" 200 5 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36"
+172.21.0.1 - - [02/Jun/2022:08:59:17 +0000] "GET //get-wistlist-products HTTP/1.1" 200 5 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36"
+172.21.0.1 - - [02/Jun/2022:08:59:40 +0000] "GET /get-wistlist-products HTTP/1.1" 200 5036 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36"
+172.21.0.1 - - [02/Jun/2022:08:59:48 +0000] "GET //get-wistlist-products HTTP/1.1" 200 5 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36"
